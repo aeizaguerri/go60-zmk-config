@@ -10,12 +10,10 @@
   </style>
   <rect class="bg" x="0" y="0" width="1320" height="1562" />
   <text class="title" x="30" y="40">MoErgo Go60 ZMK Layouts</text>
-  <text class="legend" x="30" y="64">Single-column · fixed key boxes · fixed card size · 5 visual rows</text>
-  <text class="legend" x="30" y="84">Mirror offset: left bottom starts at col 3; right top rows start at col 3</text>
+  <text class="legend" x="30" y="64">Legend: - = none, TRNS = transparent, GUI/A = mod-tap, MAG = Magic, PROG = Programming, NUM = Numbers</text>
   <g>
     <rect class="card" x="30" y="102" width="1260" height="272" />
     <text class="title" x="54" y="134">Base</text>
-    <text class="subtitle" x="54" y="154">QMK base port + Go60 lower block</text>
     <rect class="key" x="93.0" y="184.0" width="62" height="30" />
     <text class="k" x="124.0" y="199.5">-</text>
     <rect class="key" x="163.0" y="184.0" width="62" height="30" />
@@ -140,7 +138,6 @@
   <g>
     <rect class="card" x="30" y="392" width="1260" height="272" />
     <text class="title" x="54" y="424">Magic</text>
-    <text class="subtitle" x="54" y="444">Existing ZMK Magic layer</text>
     <rect class="key" x="93.0" y="474.0" width="62" height="30" />
     <text class="k" x="124.0" y="489.5">BTCLR</text>
     <rect class="key" x="163.0" y="474.0" width="62" height="30" />
@@ -265,7 +262,6 @@
   <g>
     <rect class="card" x="30" y="682" width="1260" height="272" />
     <text class="title" x="54" y="714">Programming</text>
-    <text class="subtitle" x="54" y="734">QMK programming layer adapted to Go60</text>
     <rect class="key" x="93.0" y="764.0" width="62" height="30" />
     <text class="k" x="124.0" y="779.5">-</text>
     <rect class="key" x="163.0" y="764.0" width="62" height="30" />
@@ -390,7 +386,6 @@
   <g>
     <rect class="card" x="30" y="972" width="1260" height="272" />
     <text class="title" x="54" y="1004">Nav</text>
-    <text class="subtitle" x="54" y="1024">QMK nav layer adapted to Go60</text>
     <rect class="key" x="93.0" y="1054.0" width="62" height="30" />
     <text class="k" x="124.0" y="1069.5">-</text>
     <rect class="key" x="163.0" y="1054.0" width="62" height="30" />
@@ -515,7 +510,6 @@
   <g>
     <rect class="card" x="30" y="1262" width="1260" height="272" />
     <text class="title" x="54" y="1294">Numbers</text>
-    <text class="subtitle" x="54" y="1314">QMK numbers layer adapted to Go60</text>
     <rect class="key" x="93.0" y="1344.0" width="62" height="30" />
     <text class="k" x="124.0" y="1359.5">TRNS</text>
     <rect class="key" x="163.0" y="1344.0" width="62" height="30" />
