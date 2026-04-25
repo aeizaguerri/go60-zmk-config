@@ -1,0 +1,73 @@
+MoErgo Go60 - ZMK Layouts
+=========================
+
+BASE
+
+  [ - ] [ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]                       [ 6 ] [ 7 ] [ 8 ] [ 9 ] [ 0 ] [ - ]
+  [TAB] [ Q ] [ W ] [ E ] [ R ] [ T ]                       [ Y ] [ U ] [ I ] [ O ] [ P ] [ \ ]
+  [ESC] [GA ] [AS ] [CD ] [SF ] [ G ]                       [ H ] [SJ ] [CK ] [AL ] [G; ] [ ' ]
+  [ - ] [ Z ] [ X ] [ C ] [ V ] [ B ]                       [ N ] [ M ] [ , ] [ . ] [ / ] [ALT]
+
+              [ - ] [CLK] [DEL]                         [NAV] [ - ] [ - ]
+                    [BSP]   [PRG]   [NUM]     [MAG]   [ENT]   [SPC]
+
+
+MAGIC
+
+  [BCL] [BR-] [BR+] [PRV] [NXT] [PLY]                       [MUT] [V- ] [V+ ] [ - ] [ - ] [BAL]
+  [BOT] [SP+] [SA+] [HU+] [BR+] [TOG]                       [ - ] [ - ] [ - ] [ - ] [ - ] [BOT]
+  [RST] [SD+] [SA-] [HU-] [BR-] [EFF]                       [ - ] [ - ] [ - ] [ - ] [ - ] [RST]
+  [ - ] [ - ] [B0 ] [B1 ] [B2 ] [B3 ]                       [ - ] [ - ] [ - ] [ - ] [ - ] [BAS]
+
+              [USB] [ - ] [ - ]                         [ - ] [ - ] [ - ]
+                    [ - ]   [ - ]   [ - ]     [ - ]   [ - ]   [ - ]
+
+
+PROGRAMMING
+
+  [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]                       [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]
+  [ - ] [ - ] [ ` ] [ - ] [ $ ] [ - ]                       [ ^ ] [ ( ] [ ) ] [ - ] [ - ] [ - ]
+  [ - ] [SFT] [ @ ] [ # ] [ % ] [ - ]                       [ & ] [ { ] [ } ] [ = ] [ ' ] [ - ]
+  [ - ] [ ` ] [ - ] [ - ] [ ? ] [ - ]                       [ * ] [ [ ] [ ] ] [ ! ] [ \ ] [ - ]
+
+              [TRN] [TRN] [TRN]                         [ - ] [ - ] [ - ]
+                    [TRN]   [TRN]   [TRN]     [ENT]   [ < ]   [ > ]
+
+
+NAV
+
+  [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]                       [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]
+  [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]                       [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]
+  [ - ] [GUI] [ALT] [CTL] [SFT] [ - ]                       [LFT] [DWN] [ UP] [RGT] [CAP] [ - ]
+  [ - ] [ - ] [ - ] [ - ] [ - ] [ - ]                       [INS] [HOM] [PDN] [PUP] [END] [ - ]
+
+              [ - ] [ - ] [ - ]                         [TRN] [ - ] [ - ]
+                    [ - ]   [ - ]   [ - ]     [ - ]   [ENT]   [ - ]
+
+
+NUMBERS
+
+  [TRN] [TRN] [TRN] [TRN] [TRN] [TRN]                       [TRN] [TRN] [TRN] [TRN] [TRN] [TRN]
+  [TRN] [TRN] [TRN] [F7 ] [F8 ] [F9 ]                       [TRN] [ 7 ] [ 8 ] [ 9 ] [TRN] [TRN]
+  [TRN] [SFT] [ALT] [F4 ] [F5 ] [F6 ]                       [TRN] [ 4 ] [ 5 ] [ 6 ] [ 0 ] [TRN]
+  [TRN] [GUI] [CTL] [F1 ] [F2 ] [F3 ]                       [TRN] [ 1 ] [ 2 ] [ 3 ] [TRN] [TRN]
+
+              [TRN] [TRN] [TRN]                         [TRN] [TRN] [TRN]
+                    [TRN]   [TRN]   [TRN]     [TRN]   [TRN]   [TRN]
+
+
+Legend
+------
+GA  = GUI when hold, A when tap
+AS  = ALT when hold, S when tap
+CD  = CTRL when hold, D when tap
+SF  = SHIFT when hold, F when tap
+SJ  = SHIFT when hold, J when tap
+CK  = CTRL when hold, K when tap
+AL  = ALT when hold, L when tap
+G;  = GUI when hold, ; when tap
+CLK = Left click
+PRG = Programming layer
+NUM = Numbers layer
+MAG = Magic layer
+TRN = Transparent

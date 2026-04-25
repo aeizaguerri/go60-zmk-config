@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="820" viewBox="0 0 1260 820">
+  <style>
+    .bg { fill: #0f172a; }
+    .card { fill: #111827; stroke: #334155; stroke-width: 2; rx: 18; ry: 18; }
+    .title { fill: #e5e7eb; font: 700 22px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .subtitle { fill: #94a3b8; font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .row { fill: #f8fafc; font: 600 18px ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre; }
+    .legend { fill: #cbd5e1; font: 500 14px ui-monospace, SFMono-Regular, Menlo, monospace; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1260" height="820" />
+  <text class="title" x="40" y="42">MoErgo Go60 ZMK Layouts</text>
+  <text class="legend" x="40" y="68">Legend: - = none, TRNS = transparent, GUI/A = mod-tap, MAG = Magic, PROG = Programming, NUM = Numbers</text>
+
+  <rect class="card" x="30" y="95" width="580" height="215" />
+  <text class="title" x="55" y="125">Base</text>
+  <text class="subtitle" x="55" y="145">QMK base port + Go60 lower block</text>
+  <text class="row" x="55" y="175">-    1    2    3    4    5   |   6    7    8    9    0    -</text>
+  <text class="row" x="55" y="200">TAB  Q    W    E    R    T   |   Y    U    I    O    P    \</text>
+  <text class="row" x="55" y="225">ESC  GUI/A ALT/S CTL/D SFT/F G | H SFT/J CTL/K ALT/L GUI/; '</text>
+  <text class="row" x="55" y="250">-    Z    X    C    V    B   |   N    M    ,    .    /    ALT</text>
+  <text class="row" x="55" y="275">-    LCLK DEL              |   NAV  -    -</text>
+  <text class="row" x="55" y="300">BSPC PROG NUM             |   MAG  ENT  SPC</text>
+
+  <rect class="card" x="650" y="95" width="580" height="215" />
+  <text class="title" x="675" y="125">Magic</text>
+  <text class="subtitle" x="675" y="145">Existing ZMK Magic layer</text>
+  <text class="row" x="675" y="175">BTCLR BRI- BRI+ PREV NEXT PLAY | MUTE VOL- VOL+ - - BTALL</text>
+  <text class="row" x="675" y="200">BOOT  SPI+ SAT+ HUE+ BRI+ TOG  | -    -    -    -    - BOOT</text>
+  <text class="row" x="675" y="225">RESET SPD+ SAT- HUE- BRI- EFF  | -    -    -    -    - RESET</text>
+  <text class="row" x="675" y="250">-     -    BT0  BT1  BT2  BT3  | -    -    -    -    - BASE</text>
+  <text class="row" x="675" y="275">USB   -    -                |   -    -    -</text>
+  <text class="row" x="675" y="300">-     -    -                |   -    -    -</text>
+
+  <rect class="card" x="30" y="335" width="580" height="215" />
+  <text class="title" x="55" y="365">Programming</text>
+  <text class="subtitle" x="55" y="385">QMK programming layer adapted to Go60</text>
+  <text class="row" x="55" y="415">-    -    -    -    -    -   |   -    -    -    -    -    -</text>
+  <text class="row" x="55" y="440">-    -    `    -    $    -   |   ^    (    )    -    -    -</text>
+  <text class="row" x="55" y="465">-    SFT  @    #    %    -   |   &amp;    {    }    =    '    -</text>
+  <text class="row" x="55" y="490">-    `    -    -    ?    -   |   *    [    ]    !    \    -</text>
+  <text class="row" x="55" y="515">TRNS TRNS TRNS            |   -    -    -</text>
+  <text class="row" x="55" y="540">TRNS TRNS TRNS            |   ENT  &lt;    &gt;</text>
+
+  <rect class="card" x="650" y="335" width="580" height="215" />
+  <text class="title" x="675" y="365">Nav</text>
+  <text class="subtitle" x="675" y="385">QMK nav layer adapted to Go60</text>
+  <text class="row" x="675" y="415">-    -    -    -    -    -   |   -    -    -    -    -    -</text>
+  <text class="row" x="675" y="440">-    -    -    -    -    -   |   -    -    -    -    -    -</text>
+  <text class="row" x="675" y="465">-    GUI  ALT  CTL  SFT  -   |   LEFT DOWN UP   RGHT CAPS -</text>
+  <text class="row" x="675" y="490">-    -    -    -    -    -   |   INS  HOME PGDN PGUP END  -</text>
+  <text class="row" x="675" y="515">-    -    -               |   TRNS -    -</text>
+  <text class="row" x="675" y="540">-    -    -               |   -    ENT  -</text>
+
+  <rect class="card" x="30" y="575" width="580" height="215" />
+  <text class="title" x="55" y="605">Numbers</text>
+  <text class="subtitle" x="55" y="625">QMK numbers layer adapted to Go60</text>
+  <text class="row" x="55" y="655">TRNS TRNS TRNS TRNS TRNS TRNS | TRNS TRNS TRNS TRNS TRNS TRNS</text>
+  <text class="row" x="55" y="680">TRNS TRNS TRNS F7   F8   F9   | TRNS 7    8    9    TRNS TRNS</text>
+  <text class="row" x="55" y="705">TRNS SFT  ALT  F4   F5   F6   | TRNS 4    5    6    0    TRNS</text>
+  <text class="row" x="55" y="730">TRNS GUI  CTL  F1   F2   F3   | TRNS 1    2    3    TRNS TRNS</text>
+  <text class="row" x="55" y="755">TRNS TRNS TRNS            |   TRNS TRNS TRNS</text>
+  <text class="row" x="55" y="780">TRNS TRNS TRNS            |   TRNS TRNS TRNS</text>
+
+  <rect class="card" x="650" y="575" width="580" height="215" />
+  <text class="title" x="675" y="605">Lower Block Cheat Sheet</text>
+  <text class="subtitle" x="675" y="625">Physical meaning of the two bottom lines in `main` format</text>
+  <text class="row" x="675" y="660">Line 5 = extra row:  L_C4R5  L_C3R5  L_C2R5  |  R_C2R5  R_C3R5  R_C4R5</text>
+  <text class="row" x="675" y="690">Line 6 = thumbs:     L_T1    L_T2    L_T3    |  R_T3    R_T2    R_T1</text>
+  <text class="row" x="675" y="730">Base left:   -    LCLK DEL   /   BSPC PROG NUM</text>
+  <text class="row" x="675" y="760">Base right:  NAV  -    -     /   MAG  ENT  SPC</text>
+</svg>
