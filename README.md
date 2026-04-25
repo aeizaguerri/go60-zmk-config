@@ -2,17 +2,16 @@
 
 ![MoErgo Logo](moergo_logo.png)
 
-This repository contains my custom ZMK configuration for the MoErgo Go60, based on a QMK layout from a BastardKB Dilemma and adapted to the physical geometry of the Go60.
-
+This repository contains my custom ZMK configuration for the MoErgo Go60, based on a QMK layout from a BastardKB Dilemma from this [original QMK repo](https://github.com/Alan-TheGentleman/qmk_userspace)
 ## Current Layout
 
-This keymap currently uses 5 layers:
+This keymap is based on home row mods and uses 5 layers:
 
-1. `Base` - QMK base layer ported to Go60
-2. `Magic` - original ZMK Go60 magic layer
-3. `Programming` - QMK programming symbols layer
-4. `Nav` - QMK navigation layer
-5. `Numbers` - QMK numbers/F-row layer
+1. `Base`
+2. `Magic`
+3. `Programming`
+4. `Nav`
+5. `Numbers`
 
 ### Visual Layout (SVG)
 
@@ -30,23 +29,13 @@ If the preview is too small on GitHub, open the file directly: [`go60-layouts.sv
 - `Nav`: left hand modifiers, right hand arrows/navigation (`INS`, `HOME`, `PGDN`, `PGUP`, `END`).
 - `Numbers`: left side `F1-F9` (+ modifiers), right side `1-9` and `0`.
 
-### Reading the lower block
-
-The two bottom lines of each layer in `main` format map to physical keys as follows:
-
-```text
-Line 5 = extra row:  L_C4R5  L_C3R5  L_C2R5  |  R_C2R5  R_C3R5  R_C4R5
-Line 6 = thumbs:     L_T1    L_T2    L_T3    |  R_T3    R_T2    R_T1
-```
-
 ## Reference Files
 
 - `config/go60.keymap` - actual ZMK keymap in use
-- `go60-layouts-ascii.txt` - ASCII layout reference
 - `go60-layouts.svg` - SVG layout reference
-- `config/go60.keymap.backup-pre-port-2026-04-25` - backup of the previous keymap before the QMK-style port
+- `config/go60.keymap.backup-pre-port-2026-04-25` - backup of the factory go60 config
 
-`config/go60.keymap` is the source of truth. Keep the SVG/ASCII references in sync when changing the keymap.
+`config/go60.keymap` is the source of truth. Keep the SVG reference in sync when changing the keymap.
 
 ## Notes
 
@@ -65,6 +54,8 @@ Legend:
 - `MAGIC` = Magic layer
 
 ## Resources
+
+- The [original QMK repo](https://github.com/Alan-TheGentleman/qmk_userspace) used as reference for this config.
 
 - The [official MoErgo Go60 Support](https://moergo.com/go60-support) website. Go60 documentation and other technical resources.
 - The [official MoErgo Discord Server](https://moergo.com/discord). Instant conversations with other Go60 users.
