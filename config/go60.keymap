@@ -136,8 +136,8 @@
                  &none      &none  &kp GRAVE      &none    &kp DLLR      &none                                   &kp CARET   &kp LPAR    &kp RPAR  &kp MINUS    &none      &none
                  &none   &kp LSHFT    &kp AT   &kp HASH   &kp PRCNT      &none                                    &kp AMPS   &kp LBRC    &kp RBRC  &kp EQUAL   &kp SQT     &none
                  &none   &kp GRAVE     &none      &none   &kp QMARK      &none                                    &kp STAR   &kp LBKT    &kp RBKT   &kp EXCL  &kp BSLH     &none
-                              &trans    &trans    &trans    &trans      &none    &kp RET
-                              &kp LS(COMMA)  &kp LS(DOT)  &trans   &trans     &none     &none
+                              &trans    &trans    &trans                                                                      &none         &none   &none
+                                                         &trans  &trans  &trans               &kp RET  &kp LS(COMMA)  &kp LS(DOT)
             >;
         };
 
@@ -147,8 +147,8 @@
                  &none      &none      &none      &none      &none      &none                                   &none       &none      &none      &none      &none      &none
                  &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT      &none                                &kp LEFT   &kp DOWN    &kp UP   &kp RIGHT   &kp CAPS    &none
                  &none      &none      &none      &none      &none      &none                                 &kp INS   &kp HOME  &kp PG_DN  &kp PG_UP    &kp END    &none
-                              &none    &none    &none    &none      &none    &kp RET
-                              &trans    &none    &none    &none      &none    &none
+                              &none     &none     &none                                                                       &trans        &none   &none
+                                                            &none   &none   &none                      &none  &kp RET    &none
             >;
         };
 
