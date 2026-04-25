@@ -14,99 +14,30 @@ This keymap currently uses 5 layers:
 4. `Nav` - QMK navigation layer
 5. `Numbers` - QMK numbers/F-row layer
 
-## Base Layer
+### Visual Layout (SVG)
 
-| - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TAB | Q | W | E | R | T | Y | U | I | O | P | \ |
-| ESC | GUI/A | ALT/S | CTL/D | SFT/F | G | H | SFT/J | CTL/K | ALT/L | GUI/; | ' |
-| - | Z | X | C | V | B | N | M | , | . | / | ALT |
+The main reference is the SVG below, which shows all layers and the lower-block mapping in Go60 physical order.
 
-Lower block:
+![Go60 layers visual map](go60-layouts.svg)
 
-| Left extra | Left extra | Left extra | Right extra | Right extra | Right extra |
-| --- | --- | --- | --- | --- | --- |
-| - | LCLK | DEL | NAV | - | - |
+If the preview is too small on GitHub, open the file directly: [`go60-layouts.svg`](go60-layouts.svg).
 
-| Left thumb | Left thumb | Left thumb | Right thumb | Right thumb | Right thumb |
-| --- | --- | --- | --- | --- | --- |
-| BSPC | PROG | NUM | MAGIC | ENTER | SPACE |
+### Quick Layer Summary
 
-## Other Layers
+- `Base`: daily typing layer with home-row mod-taps and Go60 lower block (`LCLK`, `DEL`, `NAV`, `PROG`, `NUM`, `MAGIC`).
+- `Magic`: Bluetooth profile management, RGB controls, media, reset/bootloader.
+- `Programming`: symbols-focused layer (e.g. `` ` $ ^ ( ) @ # % & { } = ? * [ ] ! \ ``), keeps `Enter`, `<`, `>` on right thumb cluster.
+- `Nav`: left hand modifiers, right hand arrows/navigation (`INS`, `HOME`, `PGDN`, `PGUP`, `END`).
+- `Numbers`: left side `F1-F9` (+ modifiers), right side `1-9` and `0`.
 
-`Magic`
-- Bluetooth profile management
-- RGB controls
-- media controls
-- reset / bootloader access
+### Reading the lower block
 
-| BTCLR | BRI- | BRI+ | PREV | NEXT | PLAY | MUTE | VOL- | VOL+ | - | - | BTALL |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BOOT | RGB SPI+ | RGB SAT+ | RGB HUE+ | RGB BRI+ | RGB TOG | - | - | - | - | - | BOOT |
-| RESET | RGB SPD+ | RGB SAT- | RGB HUE- | RGB BRI- | RGB EFF | - | - | - | - | - | RESET |
-| - | - | BT0 | BT1 | BT2 | BT3 | - | - | - | - | - | BASE |
+The two bottom lines of each layer in `main` format map to physical keys as follows:
 
-| Left extra | Left extra | Left extra | Right extra | Right extra | Right extra |
-| --- | --- | --- | --- | --- | --- |
-| USB | - | - | - | - | - |
-
-| Left thumb | Left thumb | Left thumb | Right thumb | Right thumb | Right thumb |
-| --- | --- | --- | --- | --- | --- |
-| - | - | - | - | - | - |
-
-`Programming`
-- programming symbols like `` ` $ ^ ( ) @ # % & { } = ? * [ ] ! \ ``
-- right thumb cluster keeps `Enter`, `<`, `>`
-
-| - | - | - | - | - | - | - | - | - | - | - | - |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| - | - | ` | - | $ | - | ^ | ( | ) | - | - | - |
-| - | SFT | @ | # | % | - | & | { | } | = | ' | - |
-| - | ` | - | - | ? | - | * | [ | ] | ! | \ | - |
-
-| Left extra | Left extra | Left extra | Right extra | Right extra | Right extra |
-| --- | --- | --- | --- | --- | --- |
-| TRNS | TRNS | TRNS | - | - | - |
-
-| Left thumb | Left thumb | Left thumb | Right thumb | Right thumb | Right thumb |
-| --- | --- | --- | --- | --- | --- |
-| TRNS | TRNS | TRNS | ENTER | < | > |
-
-`Nav`
-- left-hand modifiers: `GUI ALT CTRL SHIFT`
-- right-hand navigation: arrows, `INS`, `HOME`, `PGDN`, `PGUP`, `END`
-
-| - | - | - | - | - | - | - | - | - | - | - | - |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| - | - | - | - | - | - | - | - | - | - | - | - |
-| - | GUI | ALT | CTL | SFT | - | LEFT | DOWN | UP | RIGHT | CAPS | - |
-| - | - | - | - | - | - | INS | HOME | PGDN | PGUP | END | - |
-
-| Left extra | Left extra | Left extra | Right extra | Right extra | Right extra |
-| --- | --- | --- | --- | --- | --- |
-| - | - | - | TRNS | - | - |
-
-| Left thumb | Left thumb | Left thumb | Right thumb | Right thumb | Right thumb |
-| --- | --- | --- | --- | --- | --- |
-| - | - | - | - | ENTER | - |
-
-`Numbers`
-- left side: `F1-F9` plus modifiers
-- right side: `1-9`, `0`
-
-| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS | TRNS |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TRNS | TRNS | TRNS | F7 | F8 | F9 | TRNS | 7 | 8 | 9 | TRNS | TRNS |
-| TRNS | SFT | ALT | F4 | F5 | F6 | TRNS | 4 | 5 | 6 | 0 | TRNS |
-| TRNS | GUI | CTL | F1 | F2 | F3 | TRNS | 1 | 2 | 3 | TRNS | TRNS |
-
-| Left extra | Left extra | Left extra | Right extra | Right extra | Right extra |
-| --- | --- | --- | --- | --- | --- |
-| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS |
-
-| Left thumb | Left thumb | Left thumb | Right thumb | Right thumb | Right thumb |
-| --- | --- | --- | --- | --- | --- |
-| TRNS | TRNS | TRNS | TRNS | TRNS | TRNS |
+```text
+Line 5 = extra row:  L_C4R5  L_C3R5  L_C2R5  |  R_C2R5  R_C3R5  R_C4R5
+Line 6 = thumbs:     L_T1    L_T2    L_T3    |  R_T3    R_T2    R_T1
+```
 
 ## Reference Files
 
@@ -115,17 +46,14 @@ Lower block:
 - `go60-layouts.svg` - SVG layout reference
 - `config/go60.keymap.backup-pre-port-2026-04-25` - backup of the previous keymap before the QMK-style port
 
+`config/go60.keymap` is the source of truth. Keep the SVG/ASCII references in sync when changing the keymap.
+
 ## Notes
 
 - The lower block must follow the Go60 physical order used in `main`:
   - line 5 of each layer = extra row
   - line 6 of each layer = thumbs
 - This repository builds a single `go60.uf2`, but the same UF2 must be flashed to both halves.
-
-```text
-Line 5 = extra row:  L_C4R5  L_C3R5  L_C2R5  |  R_C2R5  R_C3R5  R_C4R5
-Line 6 = thumbs:     L_T1    L_T2    L_T3    |  R_T3    R_T2    R_T1
-```
 
 Legend:
 
@@ -134,13 +62,14 @@ Legend:
 - `LCLK` = left click
 - `PROG` = Programming layer
 - `NUM` = Numbers layer
+- `MAGIC` = Magic layer
 
 ## Resources
 
-- The [official MoErgo Go60 Support](https://moergo.com/go60-support) web site. Go60 documentation and other technical resources.
+- The [official MoErgo Go60 Support](https://moergo.com/go60-support) website. Go60 documentation and other technical resources.
 - The [official MoErgo Discord Server](https://moergo.com/discord). Instant conversations with other Go60 users.
 
-- The [official ZMK Documentation](https://zmk.dev/docs) web site. Find the answers to many of your questions about ZMK Firmware.
+- The [official ZMK Documentation](https://zmk.dev/docs) website. Find answers to many common questions about ZMK firmware.
 - The [official ZMK Discord Server](https://discord.gg/8cfMkQksSB). Instant conversations with other ZMK developers and users. Great technical resource!
 
 - The [official MoErgo ZMK Distribution](https://github.com/moergo-sc/zmk). Repository for ZMK firmware customized for Go60 and Glove80.
