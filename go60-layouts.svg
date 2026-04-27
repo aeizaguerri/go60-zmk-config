@@ -15,7 +15,7 @@
     <rect class="card" x="30" y="102" width="1260" height="272" />
     <text class="title" x="54" y="134">Base</text>
     <rect class="key" x="93.0" y="184.0" width="62" height="30" />
-    <text class="k" x="124.0" y="199.5">-</text>
+    <text class="k" x="124.0" y="199.5">MAG</text>
     <rect class="key" x="163.0" y="184.0" width="62" height="30" />
     <text class="k" x="194.0" y="199.5">1</text>
     <rect class="key" x="233.0" y="184.0" width="62" height="30" />
@@ -115,21 +115,21 @@
     <rect class="key" x="303.0" y="320.0" width="62" height="30" />
     <text class="k" x="334.0" y="335.5">LCLK</text>
     <rect class="key" x="373.0" y="320.0" width="62" height="30" />
-    <text class="k" x="404.0" y="335.5">DEL</text>
+    <text class="k" x="404.0" y="335.5">NUM/DEL</text>
     <rect class="key" x="443.0" y="320.0" width="62" height="30" />
-    <text class="k" x="474.0" y="335.5">BSPC</text>
+    <text class="k" x="474.0" y="335.5">NAV/BSPC</text>
     <rect class="key" x="513.0" y="320.0" width="62" height="30" />
     <text class="k" x="544.0" y="335.5">PROG</text>
     <rect class="key" x="583.0" y="320.0" width="62" height="30" />
-    <text class="k" x="614.0" y="335.5">NUM</text>
+    <text class="k" x="614.0" y="335.5">'</text>
     <rect class="key" x="675.0" y="320.0" width="62" height="30" />
-    <text class="k" x="706.0" y="335.5">MAG</text>
+    <text class="k" x="706.0" y="335.5">-</text>
     <rect class="key" x="745.0" y="320.0" width="62" height="30" />
     <text class="k" x="776.0" y="335.5">ENT</text>
     <rect class="key" x="815.0" y="320.0" width="62" height="30" />
     <text class="k" x="846.0" y="335.5">SPC</text>
     <rect class="key" x="885.0" y="320.0" width="62" height="30" />
-    <text class="k" x="916.0" y="335.5">NAV</text>
+    <text class="k" x="916.0" y="335.5">-</text>
     <rect class="key" x="955.0" y="320.0" width="62" height="30" />
     <text class="k" x="986.0" y="335.5">-</text>
     <rect class="key" x="1025.0" y="320.0" width="62" height="30" />
@@ -465,11 +465,11 @@
     <rect class="key" x="233.0" y="1156.0" width="62" height="30" />
     <text class="k" x="264.0" y="1171.5">-</text>
     <rect class="key" x="303.0" y="1156.0" width="62" height="30" />
-    <text class="k" x="334.0" y="1171.5">-</text>
+    <text class="k" x="334.0" y="1171.5">C-X</text>
     <rect class="key" x="373.0" y="1156.0" width="62" height="30" />
-    <text class="k" x="404.0" y="1171.5">-</text>
+    <text class="k" x="404.0" y="1171.5">C-C</text>
     <rect class="key" x="443.0" y="1156.0" width="62" height="30" />
-    <text class="k" x="474.0" y="1171.5">-</text>
+    <text class="k" x="474.0" y="1171.5">C-V</text>
     <rect class="key" x="815.0" y="1156.0" width="62" height="30" />
     <text class="k" x="846.0" y="1171.5">INS</text>
     <rect class="key" x="885.0" y="1156.0" width="62" height="30" />
@@ -495,9 +495,9 @@
     <rect class="key" x="583.0" y="1190.0" width="62" height="30" />
     <text class="k" x="614.0" y="1205.5">-</text>
     <rect class="key" x="675.0" y="1190.0" width="62" height="30" />
-    <text class="k" x="706.0" y="1205.5">-</text>
+    <text class="k" x="706.0" y="1205.5">DSK←</text>
     <rect class="key" x="745.0" y="1190.0" width="62" height="30" />
-    <text class="k" x="776.0" y="1205.5">ENT</text>
+    <text class="k" x="776.0" y="1205.5">DSK→</text>
     <rect class="key" x="815.0" y="1190.0" width="62" height="30" />
     <text class="k" x="846.0" y="1205.5">-</text>
     <rect class="key" x="885.0" y="1190.0" width="62" height="30" />
