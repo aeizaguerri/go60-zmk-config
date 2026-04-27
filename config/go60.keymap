@@ -168,7 +168,7 @@
                  &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT      &none                                &kp LEFT   &kp DOWN    &kp UP   &kp RIGHT   &kp CAPS    &none
                  &none      &none      &kp LC(X)      &kp LC(C)      &kp LC(V)      &none                                 &kp INS   &kp HOME  &kp PG_DN  &kp PG_UP    &kp END    &none
                               &none     &none     &none                                                                       &trans        &none   &none
-                                                            &none   &none   &none                      &kp LC(LGUI LEFT)  &kp LC(LGUI RIGHT)    &none
+                                                            &none   &none   &none                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))    &none
             >;
         };
 
